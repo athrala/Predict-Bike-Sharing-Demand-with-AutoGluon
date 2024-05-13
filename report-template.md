@@ -25,9 +25,9 @@ I would spend more time in EDA and add additional relevat features. I have only 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|-52.841011|-53.336556|-53.956967|1.80694|
-|add_features|-30.230133|-30.552793|-30.623649|0.6755|
-|hpo|-36.103298|-36.536902|-36.542560|0.46422|
+|initial|default vals|default vals|default vals|1.80694|
+|add_features|default vals|default vals|default vals|0.6755|
+|hpo|NN epochs:[10], activation:['relu', 'softrelu', 'tanh'], learning rate: [1e-4, 1e-2], dropout_prob: [0.0, 0.5]|GBM num_boost_round: [100], num_leaves: [26, 66]|default vals|0.46422|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
